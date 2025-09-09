@@ -1,0 +1,22 @@
+{
+	"extensionTitle": {
+		"message": "PunyCode Converter",
+		"description": "Extension title."
+	},
+	"extensionDescription": {
+		"message": "Helper for convert to/from PunyCode",
+		"description": "Extension description."
+	},
+	"srcPlaceHolder": {
+		"message": "Source",
+		"description": "Source text tooltip/placeholder."
+	},
+	"tgtPlaceHolder": {
+		"message": "Converted",
+		"description": "Converted text tooltip/placeholder."
+	},
+	"copyTitle": {
+		"message": "Copy converted text to clipboard",
+		"description": "Copy button title."
+	}
+}

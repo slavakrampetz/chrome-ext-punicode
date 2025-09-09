@@ -1,0 +1,22 @@
+{
+	"extensionTitle": {
+		"message": "PunyCode конвертор",
+		"description": "Название расширения."
+	},
+	"extensionDescription": {
+		"message": "Утилита для преобразования в/из PunyCode",
+		"description": "Описание расширения."
+	},
+	"srcPlaceHolder": {
+		"message": "Исходный текст",
+		"description": "Подсказка для поля исходный текст."
+	},
+	"tgtPlaceHolder": {
+		"message": "Результат",
+		"description": "Подсказка для поля результата преобразования."
+	},
+	"copyTitle": {
+		"message": "Скопировать результат в буфер обмена",
+		"description": "Подсказка кнопки копирования."
+	}
+}

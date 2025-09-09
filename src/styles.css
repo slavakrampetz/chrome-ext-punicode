@@ -1,0 +1,116 @@
+html,p,ol,ul,li,dl,dt,dd,blockquote,hr {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+button,input {
+	margin: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+* {
+	font-family: Calibri, Verdana, Arial, sans-serif;
+	font-size: 16px;
+}
+
+body {
+	margin: 6px 10px;
+	padding: 0;
+}
+
+.workarea {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 0.875rem;
+}
+
+.copyright a {
+	color: #004a7a;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.logo svg {
+	display: block;
+	width: 52px;
+	height: 52px;
+}
+
+.field:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.field {
+	width: 250px;
+	position: relative;
+	display: block;
+	background: rgba(40,40,0,0.2);
+	border: solid 1px #ccc;
+}
+
+.field .icon {
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	width: 19px;
+	height: 19px;
+	z-index: 4;
+}
+
+.field .icon svg {
+	display: block;
+	padding: 2px;
+	width: 19px;
+	height: 19px;
+	fill: #768693;
+}
+
+.field:hover .icon svg {
+	fill: #004a7a;
+}
+
+.text {
+	width: 100%;
+	padding: 1px 4px;
+	border: none;
+}
+
+.field.has-icon .text {
+	padding-right: 22px;
+}
